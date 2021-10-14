@@ -41,10 +41,9 @@ body {
 .wall-left {
     position: absolute;
     width: 87px;
-    background: url(assets/wall-left.png);
     height: 100vh;
     background-size: contain;
-    background-repeat: no-repeat;
+    background: url(assets/wall-left.png) no-repeat;
     top: 0;
     z-index: 100;
     left: 50%;
@@ -54,10 +53,9 @@ body {
 .wall-right {
     position: absolute;
     width: 87px;
-    background: url(./assets/wall-right.png);
     height: 100vh;
     background-size: contain;
-    background-repeat: no-repeat;
+    background: url(./assets/wall-right.png) no-repeat;
     top: 0;
     z-index: 100;
     right: 50%;
@@ -150,7 +148,7 @@ body {
 
 .name {
     position: absolute;
-    font-family: 'Mortal Kombat 3';
+    font-family: 'Mortal Kombat 3', serif;
     font-size: 26px;
     line-height: 20px;
     letter-spacing: 2px;
@@ -169,9 +167,8 @@ body {
 .chat {
     width: 786px;
     height: 30vh;
-    background: url(./assets/versus.png);
     background-size: cover;
-    background-position: center;
+    background: url(./assets/versus.png) center;
     border-top: 4px solid #f5d100;
 }
 
